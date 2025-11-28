@@ -1,0 +1,287 @@
+layout: {zmk_keyboard: qwerty}
+layers:
+  Base:
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '-'
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - \
+  - LEFT GUI
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - {t: '''', h: LEFT ALT}
+  - {t: ESCAPE, h: Mouse}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: CAPSLOCK, h: Mouse}
+  - SPACE
+  - LEFT CONTROL
+  - {t: Numbers, h: Numbers}
+  - DELETE
+  - ENTER
+  - LEFT SHIFT
+  - {t: Function, h: Function}
+  - BACK SPACE
+  Numbers:
+  - F12
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - ''
+  - LALT
+  - LCTRL
+  - LSHIFT
+  - ''
+  - ''
+  - KP SUBTRACT
+  - KP 7
+  - KP 8
+  - KP 9
+  - '['
+  - ']'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - KP PLUS
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP MULTIPLY
+  - KP DIVIDE
+  - KP NUM
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - KP 0
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP DOT
+  - KP EQUAL
+  - SPACE
+  - LEFT CONTROL
+  - {t: Base, h: Base, type: held}
+  - CALC
+  - '='
+  - LEFT SHIFT
+  - {t: Function, h: Function}
+  - BACK SPACE
+  Function:
+  - '~'
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - _
+  - ''
+  - ''
+  - ''
+  - END
+  - ''
+  - ''
+  - ''
+  - PAGE UP
+  - ''
+  - INSERT
+  - ''
+  - '|'
+  - ''
+  - ''
+  - HOME
+  - PAGE DOWN
+  - ''
+  - ''
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - ':'
+  - '"'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - SPACE
+  - LEFT CONTROL
+  - {t: Numbers, h: Numbers}
+  - DELETE
+  - ENTER
+  - LEFT SHIFT
+  - {t: Base, h: Base, type: held}
+  - BACK SPACE
+  Mouse:
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&sys_reset'
+  - ''
+  - LALT
+  - LCTRL
+  - LSHIFT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Scroll
+  - ''
+  - ''
+  - Scroll
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT CLR ALL, type: held}
+  - ''
+  - ''
+  - ''
+  - {t: Scroll, h: toggle}
+  - ''
+  - ''
+  - {t: Scroll, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ZMK Studio
+  - '&mkp MB1'
+  - ''
+  - ''
+  - '&mkp MB3'
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
+  - '&mkp MB2'
+  Scroll:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - {t: Base, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
