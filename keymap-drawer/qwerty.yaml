@@ -51,11 +51,11 @@ layers:
   - {t: CAPSLOCK, h: Mouse}
   - SPACE
   - LEFT CONTROL
-  - {t: Numbers, h: Numbers}
+  - Numbers
   - DELETE
   - ENTER
   - LEFT SHIFT
-  - {t: Function, h: Function}
+  - Function
   - BACK SPACE
   Numbers:
   - F12
@@ -70,7 +70,7 @@ layers:
   - F9
   - F10
   - F11
-  - ''
+  - KP NUM
   - LALT
   - LCTRL
   - LSHIFT
@@ -94,7 +94,7 @@ layers:
   - KP 6
   - KP MULTIPLY
   - KP DIVIDE
-  - KP NUM
+  - ''
   - ''
   - ''
   - ''
@@ -108,11 +108,11 @@ layers:
   - KP EQUAL
   - SPACE
   - LEFT CONTROL
-  - {t: Base, h: Base, type: held}
+  - {t: Base, h: toggle, type: held}
   - CALC
   - '='
   - LEFT SHIFT
-  - {t: Function, h: Function}
+  - ''
   - BACK SPACE
   Function:
   - '~'
@@ -165,11 +165,11 @@ layers:
   - ''
   - SPACE
   - LEFT CONTROL
-  - {t: Numbers, h: Numbers}
+  - ''
   - DELETE
   - ENTER
   - LEFT SHIFT
-  - {t: Base, h: Base, type: held}
+  - {t: Base, h: toggle, type: held}
   - BACK SPACE
   Mouse:
   - BT CLR
@@ -184,7 +184,7 @@ layers:
   - ''
   - ''
   - '&sys_reset'
-  - ''
+  - BT CLO ALL
   - LALT
   - LCTRL
   - LSHIFT
@@ -195,38 +195,38 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Scroll
-  - ''
-  - ''
-  - Scroll
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: BT CLR ALL, type: held}
-  - ''
-  - ''
-  - ''
-  - {t: Scroll, h: toggle}
-  - ''
-  - ''
-  - {t: Scroll, h: toggle}
-  - ''
-  - ''
-  - ''
   - ZMK Studio
+  - ''
+  - ''
+  - ''
+  - ''
+  - Scroll
+  - ''
+  - {t: Base, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - {t: Scroll, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - '&mkp MB1'
-  - ''
-  - ''
+  - '&mkp MB3'
+  - {t: Numbers, h: toggle}
   - '&mkp MB3'
   - '&mkp MB1'
   - '&mkp MB2'
-  - '&mkp MB3'
+  - {t: Function, h: toggle}
   - '&mkp MB2'
   Scroll:
   - ''
@@ -242,9 +242,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - LALT
+  - LCTRL
+  - LSHIFT
   - ''
   - ''
   - ''
