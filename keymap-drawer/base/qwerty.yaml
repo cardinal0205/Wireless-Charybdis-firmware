@@ -108,7 +108,7 @@ layers:
   - KP EQUAL
   - SPACE
   - LEFT CONTROL
-  - {t: Base, h: toggle, type: held}
+  - {type: held}
   - CALC
   - '='
   - LEFT SHIFT
@@ -128,9 +128,9 @@ layers:
   - )
   - _
   - ''
-  - ''
-  - ''
-  - END
+  - LALT
+  - LCTRL
+  - LSHIFT
   - ''
   - ''
   - ''
@@ -140,7 +140,7 @@ layers:
   - ''
   - '|'
   - ''
-  - ''
+  - END
   - HOME
   - PAGE DOWN
   - ''
@@ -169,7 +169,7 @@ layers:
   - DELETE
   - ENTER
   - LEFT SHIFT
-  - {t: Base, h: toggle, type: held}
+  - {type: held}
   - BACK SPACE
   Mouse:
   - BT CLR
@@ -222,11 +222,11 @@ layers:
   - ''
   - '&mkp MB1'
   - '&mkp MB3'
-  - {t: Numbers, h: toggle}
+  - '&mkp MB3'
   - '&mkp MB3'
   - '&mkp MB1'
   - '&mkp MB2'
-  - {t: Function, h: toggle}
+  - '&mkp MB2'
   - '&mkp MB2'
   Scroll:
   - ''
