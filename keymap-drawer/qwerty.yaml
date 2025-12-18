@@ -94,7 +94,7 @@ layers:
   - KP 6
   - KP MULTIPLY
   - KP DIVIDE
-  - ''
+  - Mouse
   - ''
   - ''
   - ''
@@ -151,7 +151,7 @@ layers:
   - RIGHT
   - ':'
   - '"'
-  - ''
+  - Mouse
   - ''
   - ''
   - ''
