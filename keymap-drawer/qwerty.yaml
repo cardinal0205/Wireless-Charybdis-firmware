@@ -58,7 +58,7 @@ layers:
   - Function
   - BACK SPACE
   Numbers:
-  - F12
+  - KP NUM
   - F1
   - F2
   - F3
@@ -70,11 +70,11 @@ layers:
   - F9
   - F10
   - F11
-  - KP NUM
+  - ''
   - LALT
   - LCTRL
   - LSHIFT
-  - ''
+  - LGUI
   - ''
   - KP SUBTRACT
   - KP 7
@@ -108,7 +108,7 @@ layers:
   - KP EQUAL
   - SPACE
   - LEFT CONTROL
-  - {t: Base, h: toggle, type: held}
+  - {type: held}
   - CALC
   - '='
   - LEFT SHIFT
@@ -128,10 +128,10 @@ layers:
   - )
   - _
   - ''
-  - ''
-  - ''
-  - END
-  - ''
+  - LALT
+  - LCTRL
+  - LSHIFT
+  - LGUI
   - ''
   - ''
   - PAGE UP
@@ -153,7 +153,7 @@ layers:
   - '"'
   - Mouse
   - ''
-  - ''
+  - END
   - ''
   - ''
   - ''
@@ -169,7 +169,7 @@ layers:
   - DELETE
   - ENTER
   - LEFT SHIFT
-  - {t: Base, h: toggle, type: held}
+  - {type: held}
   - BACK SPACE
   Mouse:
   - BT CLR
@@ -188,7 +188,7 @@ layers:
   - LALT
   - LCTRL
   - LSHIFT
-  - ''
+  - LGUI
   - ''
   - ''
   - ''
@@ -222,11 +222,11 @@ layers:
   - ''
   - '&mkp MB1'
   - '&mkp MB3'
-  - {t: Numbers, h: toggle}
+  - '&mkp MB3'
   - '&mkp MB3'
   - '&mkp MB1'
   - '&mkp MB2'
-  - {t: Function, h: toggle}
+  - '&mkp MB2'
   - '&mkp MB2'
   Scroll:
   - ''
@@ -245,7 +245,7 @@ layers:
   - LALT
   - LCTRL
   - LSHIFT
-  - ''
+  - LGUI
   - ''
   - ''
   - ''
