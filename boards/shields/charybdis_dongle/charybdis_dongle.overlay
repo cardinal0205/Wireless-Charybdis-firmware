@@ -19,12 +19,12 @@
 
 / {
     chosen {
-        zmk,kscan           = &mock_kscan;
+        zmk,kscan           = &kscan0;
         zmk,physical-layout = &charybdis_physical_layout;
         zmk,input-device    = &trackball_split;
     };
 
-    mock_kscan: mock_kscan_0 {
+    kscan0: kscan_1 {
         compatible = "zmk,kscan-mock";
         columns    = <0>;
         rows       = <0>;
